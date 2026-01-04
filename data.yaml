@@ -1,0 +1,15 @@
+
+# Update 'path' to the directory where 'randomized_dataset' is located in your environment.
+
+path: /kaggle/input/crackathon-data/randomized_dataset  # dataset root dir
+train: train/images  # train images (relative to 'path') 
+val: val/images  # val images (relative to 'path')
+test: test/images # test images (optional)
+
+# Classes
+names:
+  0: Longitudinal Crack
+  1: Transverse Crack
+  2: Alligator Crack
+  3: Other Corruption
+  4: Pothole
